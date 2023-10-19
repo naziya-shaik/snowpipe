@@ -6,14 +6,6 @@ Snowpipe is a cloud-based service provided by Snowflake DB that allows for real-
 ## How to Create a Snowpipe
 To create a Snowpipe, you will need to use SQL commands in Snowflake's worksheet or another client tool that can connect to Snowflake. Here is the basic syntax for creating a Snowpipe:
 
-![Uploading image.png…]()
-
-
-
-
-
-
-
 ```sql
 CREATE PIPE <pipe_name>
     AUTO_INGEST = { TRUE | FALSE }
